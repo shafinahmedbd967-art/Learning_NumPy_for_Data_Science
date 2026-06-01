@@ -1,57 +1,224 @@
 # 🔢 Learning NumPy for Data Science
 
-A structured collection of notes and practice notebooks based on the **NumPy for Beginners for Data Science** course by **[Sheryians AI School](https://www.youtube.com/@SheryiansAI)**.
+<div align="center">
 
-This repository is my personal learning space for mastering **NumPy** — one of the most essential libraries in Data Science, Machine Learning, and Scientific Computing.
+### 🚀 My Journey to Mastering NumPy for Data Science & Machine Learning
+
+A structured collection of notes, examples, exercises, and practice notebooks based on the **NumPy for Beginners for Data Science** course.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![NumPy](https://img.shields.io/badge/NumPy-Library-orange)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
+![Status](https://img.shields.io/badge/Status-Learning-success)
+
+</div>
 
 ---
 
-## 🙏 Credit & Attribution
+# 📖 Overview
 
-All conceptual content, exercises, and teaching materials in this repository are sourced from:
+This repository documents my learning journey while studying **NumPy**, one of the most important libraries in the Python Data Science ecosystem.
 
-**[Sheryians AI School](https://www.youtube.com/@SheryiansAI)**
+NumPy provides powerful support for:
 
-> This repository is created purely for personal learning and revision purposes.
+* Numerical Computing
+* Scientific Computing
+* Data Analysis
+* Machine Learning
+* Deep Learning
+* Artificial Intelligence
+
+The notebooks included here contain concepts, examples, experiments, and exercises completed during the learning process.
+
+---
+
+# 🙏 Credit & Attribution
+
+All conceptual explanations, exercises, examples, and learning materials used in this repository are based on the teachings of:
+
+### 🏫 Sheryians AI School
+
+YouTube Channel:
+
+https://www.youtube.com/@SheryiansAI
+
+> This repository is created solely for educational and personal learning purposes.
+>
 > No commercial use is intended.
-> Full credit for the original course content belongs to the Sheryians team.
+>
+> Full credit for the original course content belongs to Sheryians AI School and its instructors.
 
 ---
 
-## 📚 What I Have Learned
+# 🎯 Learning Objectives
 
-### 📦 01 — NumPy Arrays
-- What is NumPy and why it matters in Data Science
-- Creating 1D and 2D arrays using `np.array()`
-- Array generation functions — `arange()`, `zeros()`, `ones()`, `linspace()`
-- Random generation — `rand()`, `randn()`, `randint()`
-- Array attributes — `shape`, `size`, `dtype`
-- Array methods — `min()`, `max()`, `sum()`, `mean()`, `std()`, `argmax()`, `argmin()`
-- Reshaping arrays using `reshape()`
+The primary goals of this repository are:
 
-### 🔍 02 — NumPy Array Indexing and Slicing
-- Indexing and slicing 1D arrays (vectors)
-- Indexing and slicing 2D arrays (matrices)
-- Extracting full rows and columns
-- Boolean indexing — filtering data using conditions
-
-### ⚡ 03 — Array Operations
-- Arithmetic operations — element-wise `+`, `-`, `*`, `/`, `//`, `**`
-- Broadcasting — applying a scalar to an entire array
-- Deep copy vs Shallow copy — `.copy()`
-- Matrix operations — `np.dot()`, `.T` (transpose)
-- Stacking arrays — `vstack()`, `hstack()`, `column_stack()`
-- Splitting arrays — `hsplit()`, `vsplit()`
-
-### 🧠 04 — NumPy Exercise
-- Solved real-world style problems on a student dataset
-- Practiced indexing, slicing, boolean masking, broadcasting, and aggregation together
+* Understand NumPy fundamentals
+* Learn efficient array operations
+* Improve numerical computing skills
+* Prepare for Pandas and Data Analysis
+* Build foundations for Machine Learning
+* Strengthen Data Science knowledge
 
 ---
 
-## 🗂️ Repository Structure
+# 📚 Topics Covered
 
+---
+
+## 📦 Module 01 — NumPy Arrays
+
+Topics Learned:
+
+* Introduction to NumPy
+* Why NumPy is important for Data Science
+* Creating Arrays using `np.array()`
+* One-Dimensional Arrays
+* Two-Dimensional Arrays
+* Multi-Dimensional Arrays
+
+### Array Creation Functions
+
+* `arange()`
+* `zeros()`
+* `ones()`
+* `linspace()`
+
+### Random Array Generation
+
+* `rand()`
+* `randn()`
+* `randint()`
+
+### Array Attributes
+
+* `shape`
+* `size`
+* `dtype`
+* `ndim`
+
+### Array Methods
+
+* `min()`
+* `max()`
+* `sum()`
+* `mean()`
+* `std()`
+* `argmax()`
+* `argmin()`
+
+### Reshaping Arrays
+
+* `reshape()`
+
+---
+
+## 🔍 Module 02 — Array Indexing & Slicing
+
+Topics Learned:
+
+### 1D Array Operations
+
+* Positive Indexing
+* Negative Indexing
+* Slicing
+
+### 2D Array Operations
+
+* Row Selection
+* Column Selection
+* Sub-matrix Extraction
+
+### Boolean Indexing
+
+Examples:
+
+```python
+arr[arr > 50]
 ```
+
+```python
+arr[arr % 2 == 0]
+```
+
+Used for filtering data efficiently.
+
+---
+
+## ⚡ Module 03 — Array Operations
+
+Topics Learned:
+
+### Arithmetic Operations
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Floor Division
+* Exponentiation
+
+### Broadcasting
+
+Applying scalar values across arrays efficiently.
+
+Example:
+
+```python
+arr + 10
+```
+
+### Copying Arrays
+
+* Shallow Copy
+* Deep Copy (`copy()`)
+
+### Matrix Operations
+
+* Matrix Multiplication
+* Dot Product
+* Transpose
+
+Functions Used:
+
+```python
+np.dot()
+A.T
+```
+
+### Array Stacking
+
+* `vstack()`
+* `hstack()`
+* `column_stack()`
+
+### Array Splitting
+
+* `hsplit()`
+* `vsplit()`
+
+---
+
+## 🧠 Module 04 — NumPy Exercise
+
+Practical exercises involving:
+
+* Student datasets
+* Data filtering
+* Aggregation
+* Indexing
+* Slicing
+* Broadcasting
+* Statistical calculations
+
+This module combines all previously learned concepts into real-world practice scenarios.
+
+---
+
+# 🗂 Repository Structure
+
+```text
 Learning_NumPy_for_Data_Science/
 │
 ├── 01_NumPy_Arrays.ipynb
@@ -64,53 +231,120 @@ Learning_NumPy_for_Data_Science/
 
 ---
 
-## 🛠️ Tools Used
+# 🛠 Technologies Used
 
-- Python 3.x
-- NumPy
-- Jupyter Notebook / Google Colab
+### Programming Language
+
+* Python 3.x
+
+### Libraries
+
+* NumPy
+
+### Development Environment
+
+* Jupyter Notebook
+* Google Colab
+* VS Code
 
 ---
 
-## 🚀 How to Use This Repository
+# 🚀 Getting Started
 
-**Clone the repository:**
+## Clone the Repository
+
 ```bash
 git clone https://github.com/shafinahmedbd967-art/Learning_NumPy_for_Data_Science.git
+```
+
+Move into the project directory:
+
+```bash
 cd Learning_NumPy_for_Data_Science
 ```
 
-**Install dependencies:**
+---
+
+## Install Required Packages
+
 ```bash
 pip install numpy jupyter
 ```
 
-**Open notebooks:**
+---
+
+## Launch Jupyter Notebook
+
 ```bash
 jupyter notebook
 ```
 
----
-
-## 🎯 Learning Goals
-
-By completing this course I aim to:
-
-- Build a strong foundation in NumPy
-- Understand efficient numerical computing with arrays
-- Learn array manipulation and vectorized operations
-- Prepare for Pandas, Machine Learning, and Deep Learning
+Open any notebook and start exploring.
 
 ---
 
-## 📌 Source
+# 📈 Skills Developed
 
-- 🏫 Course By: **Sheryians AI School**
-- 📄 Material: **NumPy for Beginners for Data Science**
+Through this learning repository I have practiced:
+
+✅ Numerical Computing
+
+✅ Array Manipulation
+
+✅ Data Filtering
+
+✅ Statistical Analysis
+
+✅ Vectorized Operations
+
+✅ Matrix Computation
+
+✅ Data Science Fundamentals
 
 ---
 
-> NumPy is the backbone of numerical computing in Python.
-> Mastering NumPy makes Data Science and Machine Learning significantly easier. 🚀
+# 🔮 Next Learning Path
 
-**Happy Learning 🔥**
+After NumPy, the next topics I plan to explore are:
+
+* Pandas
+* Data Cleaning
+* Data Visualization
+* Matplotlib
+* Seaborn
+* Machine Learning
+* Deep Learning
+
+---
+
+# 👨‍💻 Author
+
+## Shafin Ahmed
+
+GitHub:
+
+https://github.com/shafinahmedbd967-art
+
+---
+
+# ⭐ Support
+
+If you find this repository useful:
+
+* Star the repository ⭐
+* Fork the repository 🍴
+* Follow my learning journey 🚀
+
+---
+
+# 📜 License
+
+This repository is intended for educational and learning purposes only.
+
+All original course materials and teaching concepts belong to their respective creators.
+
+---
+
+> "NumPy is the foundation upon which much of the Python Data Science ecosystem is built."
+>
+> Master NumPy today, and Data Science becomes much easier tomorrow. 🚀
